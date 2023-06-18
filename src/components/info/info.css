@@ -1,0 +1,35 @@
+.info__container {
+    width: 300px;
+    height: 56px;
+    margin-top: 50px;
+    display: flex;
+    margin-left:50px;
+}
+.info__image{
+    min-width: 60px;
+    min-height: 60px;
+}
+.info_content {
+    margin-left: 20px;
+}
+.info_username {
+    margin: 5px;
+    font-weight: bold;
+}
+.info_description{
+    margin: 5px;
+}
+.myPost{
+    margin-top:100px;
+    margin-left:30px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+.post-info{
+    display:flex;
+    flex-direction: row;
+}
+.post-info p{
+    margin:10px;
+}
